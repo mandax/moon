@@ -33,6 +33,7 @@ defmodule Moon.Design.MenuItem do
       {=@as}
       {=@href}
       {=@role}
+      {=@attrs}
       class={merge([
         [
           "flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14",
